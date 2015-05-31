@@ -1,0 +1,1 @@
+Test application for How-To-Npm course at NodeSchool

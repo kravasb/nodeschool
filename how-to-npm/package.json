@@ -1,14 +1,24 @@
 {
-  "name": "test",
+  "name": "how-to-npm",
   "version": "1.0.0",
-  "description": "Test project to learn npm",
+  "description": "Test project for How-To-Npm course at NodeSchool",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kravasb/nodeschool.git"
+  },
+  "keywords": [
+    "node"
+  ],
   "author": "kravasb",
   "license": "ISC",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  "bugs": {
+    "url": "https://github.com/kravasb/nodeschool/issues"
+  },
+  "homepage": "https://github.com/kravasb/nodeschool#readme"
 }
